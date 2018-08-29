@@ -1,0 +1,32 @@
+/*
+  SkyApp Boostrap Sass Theme
+  Author: Suyong EUM
+  Version: 0.0.1
+ */
+/* BASE - Base styles, variables, mixins, etc */
+/* Font Colors */
+/* Background Colors */
+body {
+  font-family: 'Segoe UI', 'Segoe WP', 'Segoe Regular', sans-serif;
+  font-size: 20px;
+  line-height: 1.7em;
+  color: #666666; }
+
+a {
+  color: #00aff0; }
+
+ul, li {
+  list-style: none; }
+
+input, textarea, button {
+  border-radius: 0; }
+
+h1, h2, h3, h4 {
+  margin-top: 0; }
+
+/* Font Colors */
+/* Background Colors */
+/* MODULE - Individual site components */
+/* LAYOUT - Page layout styles */
+
+/*# sourceMappingURL=main.css.map */

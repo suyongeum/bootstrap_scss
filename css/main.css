@@ -1,0 +1,61 @@
+/*
+  SkyApp Boostrap Sass Theme
+  Author: Suyong EUM
+  Version: 0.0.1
+ */
+/* BASE - Base styles, variables, mixins, etc */
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666; }
+
+a {
+  color: #00aff0; }
+
+ul, li {
+  list-style: none; }
+
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px; }
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0; }
+
+.page-header {
+  margn-top: 30px; }
+
+/* MODULE - Individual site components */
+/* Section */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.png") no-repeat top center; }
+
+/* LAYOUT - Page layout styles */
+/* Navbar */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #ffffff;
+  margin-bottom: 30px; }
+  .navbar a {
+    color: #00aff0 !important;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    padding-bottom: !important;
+    padding-top: !important; }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: #ffffff !important; }
+
+/*# sourceMappingURL=main.css.map */
