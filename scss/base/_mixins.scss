@@ -4,6 +4,16 @@
   border-radius: $radius;
 }
 
+@mixin add-background($color) {
+  background: $color;
+  @if $color == $light-color {
+    color: #666666;
+  } @else {
+    color: #ffffff;
+  }
+}
+
+
 @mixin add-border ($size, $color, $position) {
   @if $position == 'all' {
     border:$size solid $color;
@@ -29,3 +39,23 @@
     border-right: $size solid $color;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
