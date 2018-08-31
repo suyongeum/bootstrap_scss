@@ -18,6 +18,7 @@ ul.list {
 
   li:last-child {
     border: 0;
+    padding: 0;
   }
 
   span {
@@ -31,6 +32,47 @@ ul.list {
     margin-right: 5px;
   }
 }
+
+/* blog */
+
+
+.list-comments {
+
+  margin: 0;
+  padding: 0;
+
+  li {
+    padding: 10px 0 5px 0;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto;
+  }
+
+  li:last-child {
+    border: 0;
+  }
+
+  img {
+    float: left;
+    width: 30%;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+}
+
+
+/* blog */
+
+
+.list-location {
+  margin: 0;
+  padding: 0;
+
+  li {
+
+  }
+
+}
+
 
 
 
@@ -85,6 +127,12 @@ ul.list {
   @include add-border(2px, $primary-color, 'bottom');
 }
 
+.heading-primary-b {
+  @extend .heading-primary;
+  @include add-border(2px, #ddd, 'bottom');
+}
+
+
 .heading-secondary {
   color: $secondary-color;
 }
@@ -107,3 +155,5 @@ ul.list {
 .em-primary {
   color: $primary-color;
 }
+
+/* blog */

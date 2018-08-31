@@ -11,6 +11,20 @@
 
 /* Tab  */
 
-.tab-primary {
-  //@include  add-background($primary-color);
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a,
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a:hover,
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a:focus{
+  @include  add-background($primary-color);
+}
+
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a,
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a:hover,
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a:focus{
+  @include  add-background(lighten(#666666, 40));
+}
+
+.tab-pane {
+  padding: 20px 10px;
+  @include border-radius(5px);
+  margin-bottom: 20px;
 }

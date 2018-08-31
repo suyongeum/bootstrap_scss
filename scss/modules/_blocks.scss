@@ -55,8 +55,22 @@
     padding: 10px;
   }
 
-}
+  .block-content-blog{
+    @include add-border(1px, $primary-color, all);
+    h4 {
+      @include add-border(1px, #cccccc, bottom);
+      padding-bottom: 20px;
+    }
+    padding: 10px 80px 20px 50px;
+  }
 
+
+
+  //.block-content-blog {
+  //  @include add-border(1px, $primary-color, all);
+  //  padding: 10px 30px 30px 15px;
+  //}
+}
 
 .block-icon {
 
@@ -82,24 +96,6 @@
 }
 
 
-
-//.block-icon {
-//  h2 {
-//    padding: 0;
-//    margin: 0;
-//  }
-//
-//  .icon {
-//    float: left;
-//    width: 20%;
-//    margin-top: 10px;
-//  }
-//
-//  .icon-content {
-//    float: left;
-//    width: 70%;
-//  }
-//}
 
 
 

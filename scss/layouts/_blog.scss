@@ -1,0 +1,42 @@
+.blog-post {
+    @include add-border(1px, #cccccc, top);
+    @include add-border(1px, #cccccc, right-left);
+    padding: 15px;
+    min-height: 250px;
+
+    h2.page-header {
+        margin-top: 5px !important;
+        color: $primary-color;
+    }
+}
+
+.blog-featured {
+  @include add-border(1px, #ddd, all);
+  float: left;
+  font-size: 20em;
+  margin-right: 15px;
+}
+
+.post-meta {
+  @include add-background(#f3f3f3);
+  @include add-border(1px, #cccccc, all);
+  padding: 10px;
+  color: #666666;
+
+  margin-bottom: 20px;
+
+  span {
+    float: right;
+    padding-right: 5px;
+  }
+}
+
+.embed-responsive iframe {
+      background: #00aff0;
+}
+
+.embed-responsive-item {
+  padding: 5px;
+}
+
+
